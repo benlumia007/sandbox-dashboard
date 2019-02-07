@@ -38,7 +38,7 @@ $data = $yaml->load( (file_exists('/vagrant/sandbox-custom.yml')) ? '/vagrant/sa
 								if ( !empty( $site['hosts'] ) ) {
 									foreach( $site['hosts'] as $host ) {
 									?>
-										<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
+										<a href="<?php echo 'https://'.$host; ?>/wp-admin" target="_blank"><?php echo 'https://'.$host; ?></a>
 										<?php
 											if ( false === $has_dev ){
 											$has_dev = endsWith( $host, '.dev' );
