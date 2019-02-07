@@ -1,0 +1,62 @@
+body {
+    background: #eeeeee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+a {
+    color: #111111;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: #999999;
+}
+
+.site-container:before,
+.site-container:after,
+.site-header:before,
+.site-header:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+.site-container {
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    margin: 1.125em auto;
+    padding: 1.125em;
+    max-width: 1152px;
+}
+
+.site-branding {
+    text-align: center;
+}
+
+.site-header {
+    padding: 1.125em;
+}
+
+.site-header .site-title,
+.site-header .site-description {
+    margin: 0;
+    padding: 0;
+}
+
+.site-header .site-title {
+    font-size: 2.250em;
+}
+
+.site-content {
+    margin: 1.125em 0;
+}
+
+.site-content .site-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.125em;
+    padding: 1.125em;
+    text-align: center;
+}
