@@ -50,7 +50,7 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 		<div class="widget-area">
 			<h2 class="widget-title">Additional Features</h2>
 			<?php foreach ( $data['utilities'] as $name => $core ) {
-				if ( !empty( $core ) ) {
+				if ( ! empty( $core ) ) {
 					foreach ( $core as $feature ) {
 						if ( 'phpmyadmin' === $feature ) {
 							echo '<a href="https://dashboard.test/phpmyadmin" >'. $feature . '</a><br />';
@@ -59,7 +59,8 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 						}
 					}
 				}
-			} ?>
+			}
+			?>
 		</div>
 	</section>
 </section>

@@ -83,6 +83,7 @@ a:focus {
 .entry-content .site-name {
     display: block;
     font-size: 1.250em;
+    margin-bottom: 0.5em;
     text-align: center;
 }
 
