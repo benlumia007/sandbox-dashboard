@@ -87,6 +87,7 @@ a:focus {
 }
 
 .entry-content .link {
+    display: block;
     text-align: center;
 }
 
