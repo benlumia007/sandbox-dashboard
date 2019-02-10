@@ -74,6 +74,12 @@ a:focus {
     width: 50.625em
 }
 
+.content-area .entry-title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 .sidebar {
     border: 1px solid #000000;
     float: right;
