@@ -7,8 +7,8 @@
 	</head>
 <body>
 <?php
-require('includes/yaml.php');
-require_once( 'includes/functions.php' );
+require_once 'includes/yaml.php';
+require_once 'includes/functions.php';
 
 $yaml = new Alchemy\Component\Yaml\Yaml();
 
@@ -27,28 +27,33 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 	<section id="content" class="site-content">
 		<div class="content-area">
 			<?php
-			foreach ( $data['sites'] as $name => $site ) { ?>
+			foreach ( $data['sites'] as $name => $site ) {
+				?>
 				<div class="site-grid">
 					<span class="site-name"><?php echo strip_tags( $name ); ?></span>
 					<?php
-						$has_dev = false;
+						$has_dev   = false;
 						$has_local = false;
-							if ( !empty( $site['hosts'] ) ) {
+						if ( !empty( $site['hosts'] ) ) {
 								foreach( $site['hosts'] as $host ) {
 								?>
 									<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
 									<?php
-										if ( false === $has_dev ){
+									if ( false === $has_dev ){
 										$has_dev = endsWith( $host, '.dev' );
-										}
-									if ( false === $has_local ){
-									$has_local = endsWith( $host, '.local' );
+									}
+
+									if ( false === $has_local ) {
+										$has_local = endsWith( $host, '.local' );
+									}
 								}
-							}
 						}
 					?>
 				</div>
 			<?php } ?>
+		</div>
+		<div class="sidebar">
+						test
 		</div>
 	</section>
 </section>
