@@ -26,6 +26,7 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 	</header>
 	<section id="content" class="site-content">
 		<div class="content-area">
+			<h1 class="entry-title">WordPress Installation</h1>
 			<?php
 			foreach ( $data['sites'] as $name => $site ) {
 				?>
