@@ -16,7 +16,13 @@ a:focus {
 .site-container:before,
 .site-container:after,
 .site-header:before,
-.site-header:after {
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.content-area:before,
+.content-area:after,
+.sidebar:before,
+.sidebar:after {
     clear: both;
     content: "";
     display: table;
@@ -28,7 +34,7 @@ a:focus {
     border: 1px solid #cccccc;
     margin: 1.125em auto;
     padding: 1.125em;
-    max-width: 73.125em;
+    max-width: 72em;
 }
 
 .site-branding {
@@ -64,10 +70,10 @@ a:focus {
 
 .content-area {
     float: left;
-    width: 
+    width: 50.625em
 }
 
 .sidebar {
     float: right;
-    width: 
+    width: 20.250em
 }
