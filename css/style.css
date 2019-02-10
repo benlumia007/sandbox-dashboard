@@ -59,6 +59,12 @@ a:focus {
     margin: 1.125em 0;
 }
 
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.125em;
+}
+
 .content-area {
     float: left;
     width: 50.625em
