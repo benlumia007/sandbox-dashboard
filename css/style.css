@@ -99,8 +99,10 @@ a:focus {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 ul li {
-    margin: 0.063em;
+    margin: 0.5em;;
 }
