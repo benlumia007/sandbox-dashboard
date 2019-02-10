@@ -70,7 +70,11 @@ a:focus {
     text-align: center;
 }
 
-.sidebar {
+.widget-area {
     float: right;
     width: 19.125em
+}
+
+.widget-area .widget-title {
+    
 }
