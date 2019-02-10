@@ -61,7 +61,7 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 								} 
 								?>
 							</li>
-						}
+						<?php }
 					}
 				}
 				?>
