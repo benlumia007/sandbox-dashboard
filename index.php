@@ -12,7 +12,7 @@ require_once( 'includes/functions.php' );
 
 $yaml = new Alchemy\Component\Yaml\Yaml();
 
-$data = $yaml->load( (file_exists('/vagrant/sandbox-custom.yml')) ? '/vagrant/sandbox-custom.yml' : '/vagrant/sandbox-setup.yml' ); ?>
+$data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagrant/sandbox-custom.yml' : '/vagrant/sandbox-setup.yml' ); ?>
 
 <section id="container" class="site-container">
 	<header id="header" class="site-header">
@@ -25,32 +25,31 @@ $data = $yaml->load( (file_exists('/vagrant/sandbox-custom.yml')) ? '/vagrant/sa
 		<img src="images/header-image.jpg" />
 	</header>
 	<section id="content" class="site-content">
+		<div class="content-area">
 			<?php
-				$description = "A WordPress Installation";
-
-				foreach ( $data['sites'] as $name => $site ) { ?>
-					<div class="site-grid">
-						<span class="site-name"><?php echo strip_tags( $name ); ?></span>
-						<span classs="site-desc"><?php echo strip_tags( $description ); ?></span>
-						<?php
-							$has_dev = false;
-							$has_local = false;
-								if ( !empty( $site['hosts'] ) ) {
-									foreach( $site['hosts'] as $host ) {
-									?>
-										<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
-										<?php
-											if ( false === $has_dev ){
-											$has_dev = endsWith( $host, '.dev' );
-											}
-										if ( false === $has_local ){
-										$has_local = endsWith( $host, '.local' );
-									}
+			foreach ( $data['sites'] as $name => $site ) { ?>
+				<div class="site-grid">
+					<span class="site-name"><?php echo strip_tags( $name ); ?></span>
+					<?php
+						$has_dev = false;
+						$has_local = false;
+							if ( !empty( $site['hosts'] ) ) {
+								foreach( $site['hosts'] as $host ) {
+								?>
+									<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
+									<?php
+										if ( false === $has_dev ){
+										$has_dev = endsWith( $host, '.dev' );
+										}
+									if ( false === $has_local ){
+									$has_local = endsWith( $host, '.local' );
 								}
 							}
-						?>
-					</div>
-				<?php } ?>
+						}
+					?>
+				</div>
+			<?php } ?>
+		</div>
 	</section>
 </section>
 </body>
