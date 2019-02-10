@@ -105,5 +105,6 @@ ul {
 
 ul li {
     line-height: 0.2em;
+    list-style: none;
     margin: 0;
 }
