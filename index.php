@@ -32,28 +32,21 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 				<div class="site-grid">
 					<span class="site-name"><?php echo strip_tags( $name ); ?></span>
 					<?php
-						$has_dev   = false;
-						$has_local = false;
 						if ( !empty( $site['hosts'] ) ) {
-								foreach( $site['hosts'] as $host ) {
-								?>
-									<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
-									<?php
-									if ( false === $has_dev ){
-										$has_dev = endsWith( $host, '.dev' );
-									}
-
-									if ( false === $has_local ) {
-										$has_local = endsWith( $host, '.local' );
-									}
-								}
+							foreach( $site['hosts'] as $host ) { ?>
+								<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
+							<?php
 						}
+					}
 					?>
 				</div>
 			<?php } ?>
 		</div>
 		<div class="sidebar">
-						test
+			<?php foreach ( $data['utilities'] ) {
+				echo $data;
+			
+			} ?>
 		</div>
 	</section>
 </section>
