@@ -76,6 +76,12 @@ a:focus {
     text-align: center;
 }
 
+.site-name {
+    display: block;
+    font-size: 1.125em;
+    text-align: center;
+}
+
 .widget-area {
     float: right;
     width: 19.125em
