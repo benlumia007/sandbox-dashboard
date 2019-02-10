@@ -55,7 +55,7 @@ a:focus {
 
 .site-content .site-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1.125em;
     padding: 1.125em;
     text-align: center;
