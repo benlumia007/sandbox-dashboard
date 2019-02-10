@@ -69,11 +69,13 @@ a:focus {
 }
 
 .content-area {
+    border: 1px solid #000;
     float: left;
     width: 50.625em
 }
 
 .sidebar {
+    border: 1px solid #000000;
     float: right;
     width: 20.250em
 }
