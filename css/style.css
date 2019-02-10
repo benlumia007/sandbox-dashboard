@@ -98,6 +98,10 @@ a:focus {
     width: 19.125em
 }
 
+.widget-area .widget-title {
+    margin: 0 0 1.125em 0;
+}
+
 ul {
     list-style: none;
     margin: 0;
