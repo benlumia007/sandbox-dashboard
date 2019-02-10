@@ -78,7 +78,7 @@ a:focus {
 }
 
 .entry-content {
-    margin: 0;
+    margin-bottom: 1.125em;
 }
 
 .entry-content .site-name {
