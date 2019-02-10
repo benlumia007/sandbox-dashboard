@@ -29,21 +29,23 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 			<header class="entry-header">
 				<h1 class="entry-title">WordPress Installation</h1>
 			</header>
-			<?php
-			foreach ( $data['sites'] as $name => $site ) {
-				?>
-				<div class="entry-content">
-					<span class="site-name"><?php echo strip_tags( $name ); ?></span>
-					<?php
-					if ( ! empty( $site['hosts'] ) ) {
-						foreach ( $site['hosts'] as $host ) { ?>
-							<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
-							<?php
-						}
-					}
+				<div class="box">
+				<?php
+				foreach ( $data['sites'] as $name => $site ) {
 					?>
-				</div>
-			<?php } ?>
+					<div class="entry-content">
+						<span class="site-name"><?php echo strip_tags( $name ); ?></span>
+						<?php
+						if ( ! empty( $site['hosts'] ) ) {
+							foreach ( $site['hosts'] as $host ) { ?>
+								<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
+								<?php
+							}
+						}
+						?>
+					</div>
+				<?php } ?>
+			</div>
 		</div>
 		<div class="widget-area">
 			<h2 class="widget-title">Additional Features</h2>
