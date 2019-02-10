@@ -53,7 +53,7 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 				if ( !empty( $core ) ) {
 					foreach ( $core as $feature ) {
 						if ( 'phpmyadmin' === $feature ) {
-							echo '<a href="https://dashboard.test/phpmyadmin" >'. $feature; . '</a>';
+							echo '<a href="https://dashboard.test/phpmyadmin" >'. $feature . '</a>';
 						} elseif ( 'tls-ca' === $feature ) {
 							echo $feature;
 						}
