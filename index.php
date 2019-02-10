@@ -26,11 +26,13 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 	</header>
 	<section id="content" class="site-content">
 		<div class="content-area">
-			<h1 class="entry-title">WordPress Installation</h1>
+			<header class="entry-header">
+				<h1 class="entry-title">WordPress Installation</h1>
+			</header>
 			<?php
 			foreach ( $data['sites'] as $name => $site ) {
 				?>
-				<div class="site-grid">
+				<div class="entry-content">
 					<span class="site-name"><?php echo strip_tags( $name ); ?></span>
 					<?php
 					if ( ! empty( $site['hosts'] ) ) {
