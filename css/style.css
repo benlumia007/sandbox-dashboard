@@ -104,5 +104,6 @@ ul {
 }
 
 ul li {
-    margin: 0.5em;;
+    line-height: 0.2em;
+    margin: 0;
 }
