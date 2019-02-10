@@ -38,7 +38,7 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 						<?php
 						if ( ! empty( $site['hosts'] ) ) {
 							foreach ( $site['hosts'] as $host ) { ?>
-								<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
+								<a class="link" href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
 								<?php
 							}
 						}

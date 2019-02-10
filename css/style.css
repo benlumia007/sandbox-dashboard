@@ -76,9 +76,17 @@ a:focus {
     text-align: center;
 }
 
-.site-name {
+.entry-content {
+    margin: 2em 0;
+}
+
+.entry-content .site-name {
     display: block;
-    font-size: 1.125em;
+    font-size: 1.250em;
+    text-align: center;
+}
+
+.entry-content .link {
     text-align: center;
 }
 
