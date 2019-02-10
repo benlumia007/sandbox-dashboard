@@ -44,7 +44,9 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 		</div>
 		<div class="sidebar">
 			<?php foreach ( $data['utilities'] as $name => $core ) {
-				echo $name;
+				if ( !empty( $core as $feature ) ) {
+					echo $feature;
+				}
 			} ?>
 		</div>
 	</section>
