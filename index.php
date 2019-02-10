@@ -27,7 +27,7 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 	<section id="content" class="site-content">
 		<div class="content-area">
 			<header class="entry-header">
-				<h1 class="entry-title">WordPress Installation</h1>
+				<h2 class="entry-title">WordPress Installation</h2>
 			</header>
 				<div class="box">
 				<?php
