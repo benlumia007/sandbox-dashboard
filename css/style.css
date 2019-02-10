@@ -56,20 +56,10 @@ a:focus {
 }
 
 .site-content {
-    border: 1px solid red;
     margin: 1.125em 0;
 }
 
-.site-content .site-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1.125em;
-    padding: 1.125em;
-    text-align: center;
-}
-
 .content-area {
-    border: 1px solid #000;
     float: left;
     width: 50.625em
 }
@@ -81,7 +71,6 @@ a:focus {
 }
 
 .sidebar {
-    border: 1px solid #000000;
     float: right;
     width: 19.125em
 }
