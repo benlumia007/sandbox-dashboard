@@ -33,9 +33,9 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 				<div class="site-grid">
 					<span class="site-name"><?php echo strip_tags( $name ); ?></span>
 					<?php
-						if ( !empty( $site['hosts'] ) ) {
-							foreach( $site['hosts'] as $host ) { ?>
-								<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
+					if ( ! empty( $site['hosts'] ) ) {
+						foreach ( $site['hosts'] as $host ) { ?>
+							<a href="<?php echo 'https://'.$host; ?>" target="_blank"><?php echo 'https://'.$host; ?></a>
 							<?php
 						}
 					}
