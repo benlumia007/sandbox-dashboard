@@ -97,6 +97,10 @@ a:focus {
     width: 19.125em
 }
 
-.widget-area .widget-title {
-    
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin: 0.063em;
 }
