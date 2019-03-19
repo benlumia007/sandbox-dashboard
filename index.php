@@ -72,9 +72,9 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 			</ul>
 		</div>
 	</section>
-	<footer class="footer-area">
-		Copyright (C) 2019. All Rights Reserved
-	</footer>
 </section>
+<footer class="footer-area">
+	Copyright (C) 2019. All Rights Reserved
+</footer>
 </body>
 </html>
