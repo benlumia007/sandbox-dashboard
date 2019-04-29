@@ -73,6 +73,7 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 			<h2 class="widget-title">Bundles</h2>
 			<ul>
 				<li><a href="http://sandbox.test:1080">Mailcatcher</a></li>
+				<li><a href="https://dashboard.test/phpinfo.php">PHP info</a></li>
 			</ul>
 		</div>
 	</section>
