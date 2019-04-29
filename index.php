@@ -58,7 +58,7 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 							<li>
 								<?php
 								if ( 'phpmyadmin' === $feature ) {
-									echo '<a href="https://dashboard.test/phpmyadmin" >'. $feature . '</a>';
+									echo '<a href="https://dashboard.test/phpmyadmin">'. $feature . '</a>';
 								} elseif ( 'tls-ca' === $feature ) {
 									echo $feature;
 								}
@@ -69,6 +69,10 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 					}
 				}
 				?>
+			</ul>
+			<h2 class="widget-title">Bundles</h2>
+			<ul>
+				<li><a href="http://sandbox.test:1080">Mailcatcher</a></li>
 			</ul>
 		</div>
 	</section>
