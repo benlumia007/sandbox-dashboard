@@ -75,6 +75,8 @@ $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagran
 				<li><a href="http://sandbox.test:1080">Mailcatcher</a></li>
 				<li><a href="https://dashboard.test/phpinfo.php">PHP info</a></li>
 			</ul>
+			<h2 class="widget-title">Terminal</h2>
+			Sandbox WordPress Development comes with commands pre-installed such as WP-CLI or PHP Codesniffer, run vagrant ssh to enter the virtual machine and get the a full comamnd line experience.
 		</div>
 	</section>
 </section>
