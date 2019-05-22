@@ -1,4 +1,8 @@
 <?php
+$yaml = new Alchemy\Component\Yaml\Yaml();
+
+$data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagrant/sandbox-custom.yml' : '/vagrant/sandbox-setup.yml' );
+
 function endsWith( $haystack, $needle ) {
     $length = strlen( $needle );
     return $length === 0 || 

@@ -8,11 +8,7 @@
 <body>
 <?php
 require_once 'includes/yaml.php';
-require_once 'includes/functions.php';
-
-$yaml = new Alchemy\Component\Yaml\Yaml();
-
-$data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagrant/sandbox-custom.yml' : '/vagrant/sandbox-setup.yml' ); ?>
+require_once 'includes/functions.php'; ?>
 
 <section id="container" class="site-container">
 	<header id="header" class="site-header">
