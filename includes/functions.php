@@ -1,8 +1,4 @@
 <?php
-$yaml = new Alchemy\Component\Yaml\Yaml();
-
-$data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagrant/sandbox-custom.yml' : '/vagrant/sandbox-setup.yml' );
-
 function endsWith( $haystack, $needle ) {
     $length = strlen( $needle );
     return $length === 0 || 
@@ -10,6 +6,9 @@ function endsWith( $haystack, $needle ) {
 }
 
 function sites() {
+    $yaml = new Alchemy\Component\Yaml\Yaml();
+    $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagrant/sandbox-custom.yml' : '/vagrant/sandbox-setup.yml' );
+    
     foreach ( $data['sites'] as $name => $site ) { ?>
         <div class="entry-content">
             <span class="site-name"><?php echo strip_tags( $name ); ?></span>
