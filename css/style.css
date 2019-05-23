@@ -118,6 +118,10 @@ ul li {
     text-align: center;
 }
 
+.content-area .content-notification {
+    line-height: 1.7em;
+}
+
 .widget-area .widget-content {
     line-height: 1.7em;
 }
