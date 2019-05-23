@@ -120,9 +120,9 @@ ul li {
 
 .content-area .content-notification {
     line-height: 1.7em;
+    margin: 1.125em 0;
 }
 
 .widget-area .widget-content {
     line-height: 1.7em;
-    margin: 1.125em 0;
 }
