@@ -117,3 +117,7 @@ ul li {
 .footer-area {
     text-align: center;
 }
+
+.widget-area .wiget-content {
+    line-height: 1.7em;
+}
