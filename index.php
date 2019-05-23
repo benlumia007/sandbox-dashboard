@@ -25,6 +25,9 @@ require_once 'includes/functions.php'; ?>
 			<header class="entry-header">
 				<h2 class="entry-title">WordPress Installation</h2>
 			</header>
+			<div class="content-area">
+				ff
+			</div>
 			<div class="box">
 				<?php sites(); ?>
 			</div>
@@ -41,7 +44,8 @@ require_once 'includes/functions.php'; ?>
 			</ul>
 			<h2 class="widget-title">Terminal</h2>
 			<div class="widget-content">
-				Sandbox WordPress Development comes with commands pre-installed such as WP-CLI or PHP Codesniffer, run vagrant ssh to enter the virtual machine and get the a full command line experience.
+				Sandbox WordPress Development comes with commands pre-installed such as WP-CLI or PHP Codesniffer, 
+				run vagrant ssh to enter the virtual machine and get the a full command line experience.
 			</div>
 		</div>
 	</section>
