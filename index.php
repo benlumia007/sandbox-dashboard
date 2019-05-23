@@ -41,7 +41,7 @@ require_once 'includes/functions.php'; ?>
 			</ul>
 			<h2 class="widget-title">Terminal</h2>
 			<div class="widget-content">
-				Sandbox WordPress Development comes with commands pre-installed such as WP-CLI or PHP Codesniffer, run vagrant ssh to enter the virtual machine and get the a full comamnd line experience.
+				Sandbox WordPress Development comes with commands pre-installed such as WP-CLI or PHP Codesniffer, run vagrant ssh to enter the virtual machine and get the a full command line experience.
 			</div>
 		</div>
 	</section>
