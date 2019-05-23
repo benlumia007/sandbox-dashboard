@@ -26,7 +26,9 @@ require_once 'includes/functions.php'; ?>
 				<h2 class="entry-title">WordPress Installation</h2>
 			</header>
 			<div class="content-area">
-				ff
+				Below are the sites that were generated, please note that all sites uses secure HTTPS, therefore, you will
+				need to install the TLS-CA certificate within the browser or install it manually, depending on the OS you 
+				are using.
 			</div>
 			<div class="box">
 				<?php sites(); ?>
