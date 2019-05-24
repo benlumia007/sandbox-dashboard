@@ -13,7 +13,7 @@ function sites() {
         <div class="entry-content">
             <?php 
                 foreach ( $data['sites']['custom'] as $test => $tests ) { ?>
-                    <span class="site-name"><?php echo strip_tags( $test['custom']['site_title'] ); ?></span>
+                    <span class="site-name"><?php echo strip_tags( $test['site_title'] ); ?></span>
                 <?php }
             ?>
             <?php
