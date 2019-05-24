@@ -11,7 +11,12 @@ function sites() {
 
     foreach ( $data['sites'] as $name => $site ) { ?>
         <div class="entry-content">
-            <span class="site-name"><?php echo strip_tags( $name ); ?></span>
+            <?php
+                if ( ! empty( $site['custom' ] ) ) {
+                    $names = $site['custom']; ?>
+                    <span class="site-name"><?php echo strip_tags( $name ); ?></span>
+                <?php }
+            ?>
             <?php
             if ( ! empty( $site['hosts'] ) ) {
                 foreach ( $site['hosts'] as $host ) { ?>
