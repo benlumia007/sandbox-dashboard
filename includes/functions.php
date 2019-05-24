@@ -13,9 +13,10 @@ function sites() {
         <div class="entry-content">
             <?php
                 if ( ! empty( $site['custom' ] ) ) {
-                    $names = $site['custom']; ?>
-                    <span class="site-name"><?php echo strip_tags( $names ); ?></span>
-                <?php }
+                    foreach ( $site['custom'] as $names ) { ?>
+                        <span class="site-name"><?php echo strip_tags( $names ); ?></span>
+                    <?php }
+                }
             ?>
             <?php
             if ( ! empty( $site['hosts'] ) ) {
