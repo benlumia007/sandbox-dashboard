@@ -14,7 +14,7 @@ function sites() {
             <?php
                 if ( ! empty( $site['custom' ] ) ) {
                     $names = $site['custom']; ?>
-                    <span class="site-name"><?php echo strip_tags( $name ); ?></span>
+                    <span class="site-name"><?php echo strip_tags( $names ); ?></span>
                 <?php }
             ?>
             <?php
