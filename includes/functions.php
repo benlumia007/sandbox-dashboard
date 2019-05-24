@@ -13,7 +13,7 @@ function sites() {
         <div class="entry-content">
             <?php
                 if ( empty( $site['custom' ]['site_title'] ) ) {
-                    $names = $site['custom'];
+                    $names = $site['custom']['site_title'];
 
                     echo $names;
                 }
