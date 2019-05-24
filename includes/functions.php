@@ -12,7 +12,7 @@ function sites() {
     foreach ( $data['sites'] as $name => $site ) { ?>
         <div class="entry-content">
             <?php
-                if ( empty( $site['custom' ]['title'] ) ) {
+                if ( empty( $site['custom']['title'] ) ) {
                     $names = $site['custom']['title'];
 
                     echo $names;
