@@ -16,6 +16,7 @@ function sites() {
                     $names = $site['custom']['title'];
 
                     echo $names;
+                    echo $name;
                 }
             ?>
             <?php
