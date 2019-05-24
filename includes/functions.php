@@ -15,9 +15,9 @@ function sites() {
                 if ( ! empty( $site['custom']['title'] ) ) {
                     $names = $site['custom']['title'];
 
-                    echo $names;
+                    echo '<span class="site-title">' . strip_tags( $names ) . '</span>';
                 } else {
-                    echo $name;
+                    echo '<span class="site-title">' . strip_tags( $name ) . '</span>';
                 }
             ?>
             <?php
