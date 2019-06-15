@@ -35,7 +35,7 @@ function features() {
     $yaml = new Alchemy\Component\Yaml\Yaml();
     $data = $yaml->load( ( file_exists( '/vagrant/sandbox-custom.yml' ) ) ? '/vagrant/sandbox-custom.yml' : '/vagrant/sandbox-setup.yml' );
 
-    foreach ( $data['utilities'] as $name => $core ) {
+    foreach ( $data['resources'] as $name => $core ) {
         if ( ! empty( $core ) ) {
             foreach ( $core as $feature ) {
                 ?>
