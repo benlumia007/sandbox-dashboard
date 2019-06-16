@@ -12,9 +12,16 @@ require_once 'includes/functions.php'; ?>
 
 <section id="container" class="site-container">
 	<header id="header" class="site-header">
-		<div class="site-branding">
-			<h1 class="site-title">Sandbox</h1>
-			<h4 class="site-description">WordPress Development</h4>
+		<div class="branding-navigation">
+			<div class="site-branding">
+				<h1 class="site-title">Sandbox</h1>
+				<h4 class="site-description">WordPress Development</h4>
+			</div>
+			<div class="navigation">
+				<ul>
+					<?php features(); ?>
+				</ul>
+			</div>
 		</div>
 	</header>
 	<header id="image" class="header-image">
@@ -27,7 +34,7 @@ require_once 'includes/functions.php'; ?>
 			</header>
 			<div class="content-notification">
 				Below are the sites that were generated, please note that all sites uses secure HTTPS, therefore, you will
-				need to install the TLS-CA certificate within the browser or install it manually, depending on the OS you 
+				need to install the TLS-CA certificate within the browser or install it manually, depending on the OS you
 				are using.
 			</div>
 			<div class="box">
@@ -46,7 +53,7 @@ require_once 'includes/functions.php'; ?>
 			</ul>
 			<h2 class="widget-title">Terminal</h2>
 			<div class="widget-content">
-				Sandbox WordPress Development comes with commands pre-installed such as WP-CLI or PHP Codesniffer, 
+				Sandbox WordPress Development comes with commands pre-installed such as WP-CLI or PHP Codesniffer,
 				run vagrant ssh to enter the virtual machine and get the a full command line experience.
 			</div>
 		</div>
