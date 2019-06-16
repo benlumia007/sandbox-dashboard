@@ -107,9 +107,8 @@ a:focus {
 
 .entry-content .site-name {
     display: block;
-    font-size: 1.250em;
     font-weight: 700;
-    margin-bottom: 0.5em;
+    margin: 0;
     text-align: center;
 }
 
