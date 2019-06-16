@@ -15,7 +15,7 @@ require_once 'includes/functions.php'; ?>
 		<div class="branding-navigation">
 			<div class="site-branding">
 				<h1 class="site-title">Sandbox</h1>
-				<h4 class="site-description">WordPress Development</h4>
+				<h3 class="site-description">WordPress Development</h3>
 			</div>
 			<div class="navigation">
 				<ul>
