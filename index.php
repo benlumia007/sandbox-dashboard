@@ -24,9 +24,6 @@ require_once 'includes/functions.php'; ?>
 			</div>
 		</div>
 	</header>
-	<header id="image" class="header-image">
-		<img src="images/header-image.jpg" />
-	</header>
 	<section id="content" class="site-content">
 		<div class="content-area">
 			<header class="entry-header">

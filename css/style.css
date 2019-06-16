@@ -59,7 +59,7 @@ a:focus {
 
 .navigation {
     padding: 0.5em;
-    text-align: center;;
+    text-align: right;
 }
 
 .navigation ul {
@@ -74,7 +74,12 @@ a:focus {
 }
 
 .site-content {
-    margin: 1.125em 0;
+    margin: 3em 0;
+}
+
+.content-area {
+    margin: 0 auto;
+    max-width: 680px;
 }
 
 .box {
