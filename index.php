@@ -27,7 +27,7 @@ require_once 'includes/functions.php'; ?>
 	<section id="content" class="site-content">
 		<div class="content-area">
 			<header class="entry-header">
-				<h2 class="entry-title">WordPress Installation</h2>
+				<h1 class="entry-title">WordPress Installation</h1>
 			</header>
 			<div class="content-notification">
 				Below are the sites that were generated, please note that all sites uses secure HTTPS, therefore, you will
