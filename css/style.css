@@ -57,6 +57,12 @@ a:focus {
   	padding: 1em;
 }
 
+.navigation ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+}
+
 .site-content {
     margin: 1.125em 0;
 }
@@ -103,17 +109,6 @@ a:focus {
 
 .widget-area .widget-title {
     margin: 0 0 0.750em 0;
-}
-
-ul {
-    list-style: none;
-    margin: 0 0 1.5em 0;
-    padding: 0;
-}
-
-ul li {
-    list-style: none;
-    margin: 0 0 0.5em 0;
 }
 
 .footer-area {
