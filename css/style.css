@@ -27,15 +27,6 @@ a:focus {
     display: table;
 }
 
-
-.site-container {
-    background: #ffffff;
-    border: 1px solid #cccccc;
-    margin: 1.5em auto 0.5em auto;
-    padding: 1.125em;
-    max-width: 72em;
-}
-
 .site-branding {
     text-align: center;
 }
