@@ -41,22 +41,6 @@ require_once 'includes/functions.php'; ?>
 				<?php sites(); ?>
 			</div>
 		</div>
-		<div class="widget-area">
-			<h2 class="widget-title">Additional Features</h2>
-			<ul>
-				<?php features(); ?>
-			</ul>
-			<h2 class="widget-title">Bundles</h2>
-			<ul>
-				<li><a href="http://sandbox.test:1080">Mailcatcher</a></li>
-				<li><a href="https://dashboard.test/phpinfo.php">PHP info</a></li>
-			</ul>
-			<h2 class="widget-title">Terminal</h2>
-			<div class="widget-content">
-				Sandbox WordPress Development comes with commands pre-installed such as WP-CLI or PHP Codesniffer,
-				run vagrant ssh to enter the virtual machine and get the a full command line experience.
-			</div>
-		</div>
 	</section>
 </section>
 <footer class="footer-area">
