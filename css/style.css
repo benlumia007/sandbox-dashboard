@@ -27,22 +27,34 @@ a:focus {
     display: table;
 }
 
-.site-branding {
-    text-align: center;
-}
-
 .site-header {
-    padding: 1.125em;
+    background: #fcfcfc;
+    border-bottom: 0.063em solid #f3f3f3;
 }
 
-.site-header .site-title,
-.site-header .site-description {
-    margin: 0;
-    padding: 0;
+.site-header .branding-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.125em;
 }
 
-.site-header .site-title {
-    font-size: 2.250em;
+.site-header .branding-navigation .site-branding .site-title,
+.site-header .branding-navigation .site-branding .site-description {
+  	margin: 0;
+  	padding: 0;
+}
+
+.site-header .branding-navigation .site-branding .site-title {
+    color: #757575;
+  	float: left;
+  	font-size: 1.813em;
+  	padding: 0.375em;
+}
+
+.site-header .branding-navigation .site-branding .site-description {
+  	color: #959595;
+  	float: left;
+  	padding: 1em;
 }
 
 .site-content {
