@@ -42,7 +42,8 @@ require_once 'includes/functions.php'; ?>
 </section>
 <nav class="secondary">
 	<ul>
-		<?php features(); ?>
+		<li><a href="http://dashboard.test:1080">Mailcatcher</a></li>
+		<li><a href="https://dashboard.test/phpinfo.php">PHP Info</a></li>
 	</ul>
 </div>
 <footer class="footer-area">
