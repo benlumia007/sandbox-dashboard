@@ -62,13 +62,19 @@ a:focus {
     text-align: right;
 }
 
-.navigation ul {
+.secondary {
+  text-align: center;
+}
+
+.navigation ul,
+.secondary ul {
     display: block;
     list-style: none;
     margin: 0;
 }
 
-.navigation li {
+.navigation li,
+.secondary li {
     display: inline-block;
     padding: 0.5em 1em;
 }
@@ -87,11 +93,6 @@ a:focus {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.125em;
     margin-top: 2em
-}
-
-.content-area {
-    float: left;
-    width: 50.625em
 }
 
 .content-area .entry-title {

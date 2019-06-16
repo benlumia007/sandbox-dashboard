@@ -40,6 +40,11 @@ require_once 'includes/functions.php'; ?>
 		</div>
 	</section>
 </section>
+<nav class="secondary">
+	<ul>
+		<?php features(); ?>
+	</ul>
+</div>
 <footer class="footer-area">
 	Copyright (C) 2019. All Rights Reserved
 </footer>
