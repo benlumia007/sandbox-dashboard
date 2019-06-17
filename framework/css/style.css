@@ -667,6 +667,35 @@ figure {
     line-height: 1.8em;
 }
 
+.box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.125em;
+  margin-top: 2em
+}
+
+.content-area .entry-title {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.entry-content {
+  margin-bottom: 1.125em;
+}
+
+.entry-content .site-name {
+  display: block;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
+.entry-content .link {
+  display: block;
+  text-align: center;
+}
+
 /**
  * 18.0 - Content (Comments)
  */
