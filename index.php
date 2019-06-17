@@ -7,6 +7,7 @@
  * @license		GNU General Public License v2 or later ( https://www.gnu.org/licenses/gpl-2.0.html )
  * @author		Benjamin Lu ( https://benjlu.com )
  */
+require_once 'functions.php';
 ?>
 <!doctype html>
 <html>
@@ -14,8 +15,6 @@
 <?php head(); ?>
 </head>
 <body>
-<?php require_once 'functions.php'; ?>
-<?php require_once 'framework/scripts.php'; ?>
 <div id="container" class="site-container">
 	<header id="header" class="site-header">
 		<div class="branding-navigation">
