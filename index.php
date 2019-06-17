@@ -14,4 +14,9 @@ require_once 'functions.php';
 		<h1 class="background-title">LEMP</h1>
 		<h3 class="background-description">Linux, Nginx, MySQL, and PHP</h3>
 	</header>
+	<section class="content-area">
+		<header class="entry-header">
+			<h1 class="entry-title">Welcome to Sandbox 1.0.0</h1>
+		</header>
+	</section>
 <?php require_once 'footer.php'; ?>
