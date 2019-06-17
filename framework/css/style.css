@@ -610,7 +610,6 @@ figure {
 
 .background-image {
   background: url('/framework/assets/images/header-image.jpg');
-  margin: 0;
   padding: 8em 0;
   text-align: center;
 }
@@ -618,10 +617,12 @@ figure {
 .background-image .background-title {
   color: #ffffff;
   font-size: 5em;
+  margin: 0;
 }
 
 .background-image .background-description {
   color: #ffffff;
+  margin: 0;
 }
 
 /**
