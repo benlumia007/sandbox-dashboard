@@ -32,6 +32,14 @@ require_once 'functions.php';
 			</div>
 		</div>
 	</header>
+	<section id="content" class="site-content">
+
+	</section>
+	<footer id="footer" class="site-footer">
+		<div class="site-info">
+			Copyright (C) 2019. All Rights Reserved
+		</div>
+	</footer>
 </div>
 </body>
 </html>

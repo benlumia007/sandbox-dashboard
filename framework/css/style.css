@@ -611,6 +611,15 @@ figure {
 /**
  * 16.0 - Basic Structure (Footer)
  */
+.site-footer {
+	background: #fcfcfc;
+	border-top: 0.063em solid #f3f3f3;
+}
+
+.site-footer .site-info {
+    padding: 1.125em;
+    text-align: center;
+}
 
 /**
  * 17.0 - Content (Posts and Pages)
