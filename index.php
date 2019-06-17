@@ -19,7 +19,9 @@ require_once 'functions.php';
 			<h1 class="entry-title">Welcome to Sandbox 1.0.0</h1>
 		</header>
 		<section class="entry-content">
-			Welcome, you have successfully install Sandbox.
+			<p>
+				Welcome, you have successfully install Sandbox.
+			</p>
 		</section>
 	</section>
 <?php require_once 'footer.php'; ?>
