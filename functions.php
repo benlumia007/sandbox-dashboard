@@ -1,1 +1,1 @@
-<?php require_once '/framework/scripts.php'; ?>
+<?php require_once 'framework/scripts.php'; ?>
