@@ -511,7 +511,7 @@ figure {
 	display: block;
 	font-size: 0.875em;
 	font-weight: bold;
-	height: auto;
+	height: auto;    printf( '<link href="framework/css/normalize.css" rel="stylesheet" type="text/css" />' . "\n" );
 	left: 5px;
 	line-height: normal;
 	padding: 0.938em 1.5em 0.938em;
@@ -548,6 +548,38 @@ figure {
 /**
  * 13.0 - Basic Strucutre (Header)
  */
+.site-header {
+	background: #fcfcfc;
+	border-bottom: 0.063em solid #f3f3f3;
+}
+
+.site-header .branding-navigation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.125em;
+}
+
+.site-header .branding-navigation .site-branding .site-title,
+.site-header .branding-navigation .site-branding .site-description {
+	margin: 0;
+	padding: 0;
+}
+
+.site-header .branding-navigation .site-branding .site-title {
+	float: left;
+	font-size: 1.813em;
+	padding: 0.375em;
+}
+
+.site-header .branding-navigation .site-branding .site-title a {
+	color: #757575;
+}
+
+.site-header .branding-navigation .site-branding .site-description {
+	color: #959595;
+	float: left;
+	padding: 1em;
+}
 
 /**
  * 14.0 - Basic Structure (Content)
