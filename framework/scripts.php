@@ -10,4 +10,5 @@
 
 function head() {
     printf( '<meta charset="UTF-8" />' . "\n" );
+    printf( '<meta name="viewport" content="width=device-width, initial-scale=1" />' . "\n" );
 }
