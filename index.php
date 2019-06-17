@@ -11,9 +11,10 @@
 <!doctype html>
 <html>
 <head>
-<?php require_once '/framework/scripts.php'; ?>
+
 </head>
 <body>
+<?php require_once 'functions.php'; ?>
 <div id="container" class="site-container">
 	<header id="header" class="site-header">
 		<div class="branding-navigation">
