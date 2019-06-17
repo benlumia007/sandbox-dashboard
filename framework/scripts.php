@@ -8,6 +8,3 @@
  * @author		Benjamin Lu ( https://benjlu.com )
  */
 
- function load_head() {
-     echo 'shit';
- }

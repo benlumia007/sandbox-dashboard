@@ -5,3 +5,7 @@ array_map( function( $files ) {
     'scripts',
 ]
 );
+
+function load_head() {
+    echo 'shit';
+}
