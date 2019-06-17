@@ -57,6 +57,11 @@
 					It includes Nginx, MySQL, and PHP as its environment and of course, there are other features that
 					are included such as Composer, WP-Cli, and PHPCS for WordPress Coding Standard.
 				</p>
+				<h1>Requirements</h1>
+				<p>
+					By default, VirtualBox and Vagrant is the main software to be used for Sandbox and it is recommended
+					Sandbox also have providers, along with VirtualBox are Microsoft Hyper-V and Parallels.
+				</p>
 			</section>
 		</section>
 	</section>
