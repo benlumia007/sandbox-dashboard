@@ -8,6 +8,8 @@
  * @author		Benjamin Lu ( https://benjlu.com )
  */
 
-function head() {
-    echo 'shit';
-}
+ function head() {
+     echo '<meta charset="UTF-8" />';
+     echo '<meta name="viewport" content="width=device-width, initial-scale=1" />';
+     echo '<link rel="profile" href="https://gmpg.org/xfn/11" />';
+ }
