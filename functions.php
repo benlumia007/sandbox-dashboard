@@ -1,1 +1,7 @@
-<?php require_once 'framework/scripts.php'; ?>
+<?php
+array_map( function( $files ) {
+    require_once "framework/{$files}.php";
+},[
+    'scripts',
+]
+);
