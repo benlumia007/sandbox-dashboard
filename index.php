@@ -39,7 +39,7 @@
 	</header>
 	<section id="content" class="site-content">
 		<header class="background-image">
-			<h1 class="background-title">LEMP</h1>
+			<h1 class="background-title">Vagrant Up</h1>
 			<h3 class="background-description">Linux, Nginx, MySQL, and PHP</h3>
 		</header>
 		<section class="content-area">
