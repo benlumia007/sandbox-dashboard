@@ -8,3 +8,6 @@
  * @author		Benjamin Lu ( https://benjlu.com )
  */
 
+function head() {
+    echo 'shit';
+}
