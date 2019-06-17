@@ -611,12 +611,16 @@ figure {
 .background-image {
   background: url('/framework/assets/images/header-image.jpg');
   padding: 10em 0;
+  text-align: center;
 }
 
 .background-image .background-title {
   color: #ffffff;
-  font-size: 2.5em;
-  text-align: center;
+  font-size: 3em;
+}
+
+.background-image .background-title {
+  color: #ffffff;
 }
 
 /**
