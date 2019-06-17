@@ -649,8 +649,17 @@ figure {
  * 17.0 - Content (Posts and Pages)
  */
 .content-area {
-  margin: 3em auto 0 auto;
-  max-width: 680px;
+    margin: 3em auto 0 auto;
+    max-width: 680px;
+}
+
+.content-area .entry-header {
+    text-align: center;
+}
+
+.content-area .entry-header .entry-title {
+  margin: 0;
+  padding: 0;
 }
 
 /**
