@@ -613,6 +613,11 @@ figure {
   padding: 10em 0;
 }
 
+.background-image .background-title {
+  color: #ffffff;
+  text-align: center;
+}
+
 /**
  * 14.0 - Basic Structure (Content)
  */
