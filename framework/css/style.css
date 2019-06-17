@@ -540,6 +540,13 @@ figure {
     text-align: right;
 }
 
+.primary-navigation ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /**
  * 10.0 - Navigation (Secondary)
  */
