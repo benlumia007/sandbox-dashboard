@@ -12,6 +12,6 @@ require_once 'functions.php';
 <?php require_once 'header.php'; ?>
 	<header class="background-image">
 		<h1 class="background-title">LEMP</h1>
-		<h3 clsss="background-description">Linux, Nginx, MySQL, and PHP</h3>
+		<h3 class="background-description">Linux, Nginx, MySQL, and PHP</h3>
 	</header>
 <?php require_once 'footer.php'; ?>
