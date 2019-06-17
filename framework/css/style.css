@@ -648,7 +648,10 @@ figure {
 /**
  * 17.0 - Content (Posts and Pages)
  */
-.sticky {}
+.content-area {
+  margin: 3em auto 0 auto;
+  max-width: 680px;
+}
 
 /**
  * 18.0 - Content (Comments)
