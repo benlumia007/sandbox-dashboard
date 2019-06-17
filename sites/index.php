@@ -29,8 +29,8 @@ require_once '../functions.php';
 			<div class="primary-navigation">
 				<ul>
                     <li><a href="https://dashboard.test/sites">Sites</a></li>
-					<li><a href="https://dashboard.test/phpmyadmin" targt="_blank">phpMyAdmin</a></li>
-                    <li><a href="http://dashboard.test:1080" target="_blank"></a>Mailcatcher</li>
+					<li><a href="https://dashboard.test/phpmyadmin" target="_blank">phpMyAdmin</a></li>
+                    <li><a href="http://dashboard.test:1080" target="_blank">Mailcatcher</a></li>
 					<li><a href="https://dashboard.test/phpinfo.php" target="_blank">PHPInfo</a></li>
                     <li><a href="https://dashboard.test/docs">Docs</a></li>
                     <li><a href="https://dashboard.test/support">Support</a></li>
