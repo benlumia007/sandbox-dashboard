@@ -59,8 +59,13 @@
 				</p>
 				<h1>Requirements</h1>
 				<p>
-					By default, VirtualBox and Vagrant is the main software to be used for Sandbox and it is recommended
-					Sandbox also have providers, along with VirtualBox are Microsoft Hyper-V and Parallels.
+					Sandbox requires the lastest version of VirtualBox and Vagrant to be installed on any host computers
+					that supports virtualization. <a href="https://www.vagrantup.com/" target="_blank">Vagrant</a> is a tool 
+					that helps build and manage virtual machine environment within one single workflow. 
+				</p>
+				<p>
+					In addition to VirtualBox as the main provider for Vagrant. Sandbox also supports two other providers and
+					they are Microsoft Hyper-V and Parallels. To learned more about Hyper-V and Parallels, head over the docs.
 				</p>
 			</section>
 		</section>
