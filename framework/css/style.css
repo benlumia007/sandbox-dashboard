@@ -662,6 +662,10 @@ figure {
   padding: 0;
 }
 
+.content-area .entry-content {
+  line-height: 1.8em;
+}
+
 /**
  * 18.0 - Content (Comments)
  */

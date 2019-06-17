@@ -24,6 +24,11 @@ require_once 'functions.php';
 				available features that are included on this system. If you need help, head over to the docs
 				to learn more.
 			</p>
+			<p>
+				Sandbox is a development environment and it should only meant be used for development purposes.
+				It includes Nginx, MySQL, and PHP as its environment and of course, there are other features that
+				are included such as Composer, WP-Cli, and PHPCS for WordPress Coding Standard.
+			</p>
 		</section>
 	</section>
 <?php require_once 'footer.php'; ?>
