@@ -43,7 +43,9 @@
 				<h1 class="entry-title">Sites</h1>
 			</header>
 			<section class="entry-content">
-
+                <div clss="box">
+                    <?php sites(); ?>
+                </div>
 			</section>
 		</section>
 	</section>
