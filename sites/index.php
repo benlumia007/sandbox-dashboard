@@ -42,11 +42,9 @@
 			<header class="entry-header">
 				<h1 class="entry-title">Sites</h1>
 			</header>
-			<section class="entry-content">
-                <div clss="box">
+            <div class="box">
                     <?php sites(); ?>
-                </div>
-			</section>
+            </div>
 		</section>
 	</section>
 	<footer id="footer" class="site-footer">
