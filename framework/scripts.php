@@ -9,9 +9,9 @@
  */
 
  function head() {
-     echo '<meta charset="UTF-8" /><br />';
+     echo '<meta charset="UTF-8" />\n';
      echo '<meta name="viewport" content="width=device-width, initial-scale=1" /><br />';
      echo '<link rel="profile" href="https://gmpg.org/xfn/11" /><br />';
-     echo '<link href="css/style.css" rel="stylesheet" type="text/css" /><br />';
-     echo '<link href="css/normalize.css" rel="stylesheet" type="text/css" />';
+     echo '<link href="framework/css/style.css" rel="stylesheet" type="text/css" /><br />';
+     echo '<link href="framework/css/normalize.css" rel="stylesheet" type="text/css" />';
  }
