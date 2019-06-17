@@ -650,7 +650,8 @@ figure {
  */
 .content-area {
     margin: 3em auto 0 auto;
-    max-width: 680px;
+    padding: 0 1.125em;
+    max-width: 44.750em;
 }
 
 .content-area .entry-header {
@@ -658,12 +659,12 @@ figure {
 }
 
 .content-area .entry-header .entry-title {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .content-area .entry-content {
-  line-height: 1.8em;
+    line-height: 1.8em;
 }
 
 /**
