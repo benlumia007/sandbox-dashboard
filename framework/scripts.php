@@ -9,5 +9,5 @@
  */
 
 function head() {
-    printf( '<meta charset="UTF-8" />', "\n" );
+    printf( '<meta charset="UTF-8" />' . "\n" );
 }
