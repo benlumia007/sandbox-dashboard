@@ -614,15 +614,14 @@ figure {
   text-align: center;
 }
 
-.background-image .background-title {
-  color: #ffffff;
-  font-size: 5em;
-  margin: 0;
-}
-
+.background-image .background-title,
 .background-image .background-description {
   color: #ffffff;
   margin: 0;
+}
+
+.background-image .background-title {
+  font-size: 5em;
 }
 
 /**
