@@ -20,7 +20,9 @@ require_once 'functions.php';
 		</header>
 		<section class="entry-content">
 			<p>
-				Welcome, you have successfully install Sandbox.
+				Welcome, you have successfully install Sandbox environment. You now full access to all 
+				available features that are included on this system. If you need help, head over to the docs
+				to learn more.
 			</p>
 		</section>
 	</section>
