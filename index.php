@@ -11,7 +11,7 @@
 <!doctype html>
 <html>
 <head>
-<?php load_head(); ?>
+<?php head(); ?>
 </head>
 <body>
 <?php require_once 'functions.php'; ?>
