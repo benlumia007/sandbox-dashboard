@@ -14,4 +14,5 @@ function head() {
     printf( '<link rel="profile" href="https://gmpg.org/xfn/11" />' . "\n" );
     printf( '<link href="framework/css/style.css" rel="stylesheet" type="text/css" />' . "\n" );
     printf( '<link href="framework/css/normalize.css" rel="stylesheet" type="text/css" />' . "\n" );
+    printf( '<link href="framework/css/custom-fonts.css" rel="stylesheet" type="text/css" />' . "\n" );
 }
