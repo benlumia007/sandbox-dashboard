@@ -528,10 +528,17 @@ figure {
 /**
  *  8.0 - Navigation (Links)
  */
+ a {
+	color: #222222;
+	text-decoration: none;
+}
 
 /**
  *  9.0 - Navigation (Primary)
  */
+.primary-navigation {
+    text-align: right;
+}
 
 /**
  * 10.0 - Navigation (Secondary)
