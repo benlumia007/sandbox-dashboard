@@ -33,6 +33,7 @@ require_once 'functions.php';
                     <li><a href="http://dashboard.test:1080"></a>Mailcatcher</li>
 					<li><a href="https://dashboard.test/phpinfo.php">PHPInfo</a></li>
 					<li><a href="https://dashboard.test/phpmyadmin">phpMyAdmin</a></li>
+					<li><a href="https://dashboard.test/support">Support</a></li>
 				</ul>
 			</div>
 		</div>
