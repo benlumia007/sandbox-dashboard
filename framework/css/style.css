@@ -511,7 +511,7 @@ figure {
 	display: block;
 	font-size: 0.875em;
 	font-weight: bold;
-	height: auto;    printf( '<link href="framework/css/normalize.css" rel="stylesheet" type="text/css" />' . "\n" );
+	height: auto;
 	left: 5px;
 	line-height: normal;
 	padding: 0.938em 1.5em 0.938em;
@@ -598,6 +598,10 @@ figure {
 	color: #959595;
 	float: left;
 	padding: 1em;
+}
+
+.background-image {
+  background: url('assets/images/header-image.jpg');
 }
 
 /**

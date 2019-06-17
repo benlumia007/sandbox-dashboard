@@ -10,5 +10,7 @@
 require_once 'functions.php';
 ?>
 <?php require_once 'header.php'; ?>
-
+	<header class="background-image">
+		<h1 class="background-title">LEMP</h1>
+	</header>
 <?php require_once 'footer.php'; ?>
