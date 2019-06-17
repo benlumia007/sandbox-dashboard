@@ -11,4 +11,7 @@
 function head() {
     printf( '<meta charset="UTF-8" />' . "\n" );
     printf( '<meta name="viewport" content="width=device-width, initial-scale=1" />' . "\n" );
+    printf( '<link rel="profile" href="https://gmpg.org/xfn/11" />' . "\n" );
+    printf( '<link href="framework/css/style.css" rel="stylesheet" type="text/css" />' . "\n" );
+    printf( '<link href="framework/css/normalize.css" rel="stylesheet" type="text/css" />' . "\n" );
 }
