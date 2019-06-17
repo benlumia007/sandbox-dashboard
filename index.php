@@ -24,7 +24,9 @@ require_once 'functions.php';
 			</div>
 			<div class="primary-navigation">
 				<ul>
-					<li><a href="https://dashboard.test">phpMyAdmin</a></li>
+					<li><a href="">Docs</a></li>
+					<li><a href="https://dashboard.test/phpinfo.php">PHP Info</a></li>
+					<li><a href="https://dashboard.test/phpmyadmin">phpMyAdmin</a></li>
 				</ul>
 			</div>
 		</div>
