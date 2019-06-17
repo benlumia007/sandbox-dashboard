@@ -23,6 +23,11 @@
 				<h1 class="site-title"><a href="https://dashboard.test">Sandbox</a></h1>
 				<h3 class="site-description">WordPress Development</h3>
 			</div>
+			<div class="primary-navigation">
+				<ul>
+					<li><a href="https://dashboard.test">phpMyAdmin</a></li>
+				</ul>
+			</div>
 		</div>
 	</header>
 </div>
