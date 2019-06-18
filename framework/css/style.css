@@ -466,6 +466,10 @@ figure {
     margin: 0;
 }
 
+pre {
+  background: #f1f1f1;
+}
+
 
 /**
  *  4.0 - Forms
