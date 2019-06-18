@@ -44,14 +44,8 @@ require_once '../../functions.php';
 				<h1 class="entry-title">Getting Started</h1>
 			</header>
             <div class="entry-content">
-                <p>
-                    Sandbox requires the latest versions of Vagrant and VirtualBox, since the environment
-                    is based on the newer versions, along with some vagrant plugins, only one that is useful.
-                    <ul>
-                        <li><a href="https://www.vagrantup.com/">Vagrant ( 2.2.4 )</a></li>
-                        <li><a href="https://www.virtualbox.org/">VirtualBox ( 6.0.8 )</a></li>
-                    </ul>
-                </p>
+                <p>Sandbox requires the latest versions of Vagrant and VirtualBox, since the environment is 
+                    based on the newer versions, along with some vagrant plugins, only one that is useful.</p>
                 <h2>Vagrant Hosts Updater</h2>
                 <p>
                     This is one of the requirements that should be installed. Vagrant Hosts Updater allows you
