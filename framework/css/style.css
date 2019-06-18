@@ -667,6 +667,10 @@ figure {
     line-height: 1.8em;
 }
 
+.content-area .entry-content a {
+  color: #000080;
+}
+
 .box {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
