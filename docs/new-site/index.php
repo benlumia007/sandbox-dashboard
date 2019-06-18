@@ -41,23 +41,10 @@ require_once '../../functions.php';
 	<section id="content" class="site-content">
 		<section class="content-area">
 			<header class="entry-header">
-				<h1 class="entry-title">Getting Started</h1>
+				<h1 class="entry-title">Add New Site</h1>
 			</header>
             <div class="entry-content">
-                <p>Sandbox requires the latest versions of Vagrant and VirtualBox, since the environment is 
-                    based on the newer versions, along with some vagrant plugins, only one that is useful.</p>
-                <ul>
-                    <li><a href="https://www.vagrantup.com/">Vagrant ( 2.2.4 )</a></li>
-                    <li><a href="https://www.virtualbox.org/">VirtualBox ( 6.0.8 )</a></li>
-                </ul>
-                <h2>Vagrant Hosts Updater</h2>
-                <p>This is one of the requirements that should be installed. Vagrant Hosts Updater allows you
-                    to update the hosts file automatically without the need to manually add them.</p>
-                <pre>vagrant plugin install vagrant-hostsupdater</pre>
-                <h2>Reboot</h2>
-                <p>It is recommended once you have installed Vagrant and VirtualBox + Extension Pack. Restart
-                    the computer so that everything works. Once rebooted, you can check if vagrant is working by
-                    using <code>vagrant -v</code> or <code>vagrant --version</code>
+
             </div>
 		</section>
 	</section>
