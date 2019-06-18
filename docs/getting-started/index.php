@@ -44,7 +44,14 @@ require_once '../../functions.php';
 				<h1 class="entry-title">Getting Started</h1>
 			</header>
             <div class="entry-content">
-
+                <p>
+                    Sandbox requires the latest versions of Vagrant and VirtualBox, since the environment
+                    is based on the newer versions, along with some vagrant plugins, only one that is useful.
+                    <ul>
+                        <li><a href="https://www.vagrantup.com/">Vagrant</a></li>
+                        <li><a href="https://www.virtualbox.org/">VirtualBox</a></li>
+                    </ul>
+                </p>
             </div>
 		</section>
 	</section>
