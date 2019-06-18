@@ -44,7 +44,9 @@ require_once '../../functions.php';
 				<h1 class="entry-title">Introduction</h1>
 			</header>
             <div class="entry-content">
-                
+                Sandbox is an open source project that focuses on WordPress development and uses
+                Vagrant and VirtualBox as its based. Sandbox is ideal for creating and developing
+                WordPress Themes and Plugins. 
             </div>
 		</section>
 	</section>
