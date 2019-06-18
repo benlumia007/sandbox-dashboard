@@ -47,11 +47,11 @@ require_once '../functions.php';
 				<ol>
 					<li><a href="https://dashboard.test/docs/introduction">Introduction</a></li>
 					<li><a href="https://dashboard.test/docs/getting-started">Getting Started</a></li>
-					<li><a href="https://dashboard.test/docs/new-site"></a>Add New Site</li>
+					<li><a href="https://dashboard.test/docs/new-site">Add New Site</a></li>
 					<li><a href="https://dashboard.test/docs/templates">Templates</a></li>
-					<li><a href="https://dashboard.test/docs/utilties"></a>Utilties</li>
-					<li><a href="https://dashboard.test/docs/secure-https"></a>Secure HTTPS</li>
-					<li><a href="https://dashboard.test/docs/references"></a>References</li>
+					<li><a href="https://dashboard.test/docs/utilties">Utilties</a></li>
+					<li><a href="https://dashboard.test/docs/secure-https">Secure HTTPS</a></li>
+					<li><a href="https://dashboard.test/docs/references">References</a></li>
 				</ol>
             </div>
 		</section>
