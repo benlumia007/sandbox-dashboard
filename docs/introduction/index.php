@@ -51,7 +51,7 @@ require_once '../../functions.php';
                     that uses VirtualBox and Vagrant to focus on development.
                 </p>
                 <p>
-                    Sandbox is built with Ubuntu 18.04.2 LTS ( Bonic ) use with VirtualBox adn Vagrant with
+                    Sandbox is built with Ubuntu 18.04.2 LTS ( Bionic ) use with VirtualBox and Vagrant with
                     software that has been pre-installed for easy access throughout the process. so what exactly
                     does Sandbox comes with.
                 </p>
