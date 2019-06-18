@@ -44,7 +44,19 @@ require_once '../../functions.php';
 				<h1 class="entry-title">Utilities</h1>
 			</header>
             <div class="entry-content">
-
+				<p>Sandbox comes with two features that gets installed automatically without the need 
+					to install manually. These two features are phpMyAdmin and TLS-CA.</p>
+				<h2>phpMyAdmin</h2>
+				<p><a href="https://www.phpmyadmin.net">phpMyAdmin</a> is a free software that allows you
+				to handle the administration of MySQL over the web, so no need to open ports just to view
+				your database.</p>
+				<h2>TLS-CA</h2>
+				<p>TLS-CA, these are self signed certificates and it should only be used during development 
+					and should not be used for productions, unless you get it vertified, but in this case, all
+					domain names that is being used for this are all <code>.test</code></p>
+				<p>There is a root certificates that allows you to install on your local environment so that
+					it becomes a local trusted certificate. The <code>ca.crt</code> is all you need, the rest will
+					be taken care of automatically.
             </div>
 		</section>
 	</section>
