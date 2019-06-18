@@ -43,7 +43,7 @@ require_once '../functions.php';
 			<header class="entry-header">
 				<h1 class="entry-title">Docs</h1>
 			</header>
-            <div class="content-area">
+            <div class="entry-content">
 				<ol>
 					<li><a href="https://dashboard.test/docs/introduction">Introduction</a></li>
 					<li><a href="https://dashboard.test/docs/getting-started">Getting Started</a></li>
