@@ -51,11 +51,13 @@ require_once '../../functions.php';
                     <li><a href="https://www.virtualbox.org/">VirtualBox ( 6.0.8 )</a></li>
                 </ul>
                 <h2>Vagrant Hosts Updater</h2>
-                <p>
-                    This is one of the requirements that should be installed. Vagrant Hosts Updater allows you
-                    to update the hosts file automatically without the need to manually add them.
-                </p>
+                <p>This is one of the requirements that should be installed. Vagrant Hosts Updater allows you
+                    to update the hosts file automatically without the need to manually add them.</p>
                 <pre>vagrant plugin install vagrant-hostsupdater</pre>
+                <h2>Reboot</h2>
+                <p>It is recommended once you have installed Vagrant and VirtualBox + Extension Pack. Restart
+                    the computer so that everything works. Once rebooted, you can check if vagrant is working by
+                    using <code>vagrant -v</code> or <code>vagrant --version</code>
             </div>
 		</section>
 	</section>
