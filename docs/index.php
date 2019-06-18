@@ -41,7 +41,7 @@ require_once '../functions.php';
 	<section id="content" class="site-content">
 		<section class="content-area">
 			<header class="entry-header">
-				<h1 class="entry-title">Sites</h1>
+				<h1 class="entry-title">Docs</h1>
 			</header>
             <div class="content-area">
             
