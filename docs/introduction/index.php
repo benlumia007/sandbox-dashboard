@@ -45,9 +45,27 @@ require_once '../../functions.php';
 			</header>
             <div class="entry-content">
                 <p>
-                    Sandbox is an open source project that focuses on WordPress development and uses
-                    Vagrant and VirtualBox as its based. Sandbox is ideal for creating and developing
-                    WordPress Themes and Plugins. 
+                    Sandbox is a place where you create WordPress themes and plugins, an environment
+                    where you have full control of what you want to do, especially addig new software
+                    that you want to use or use existing features. Sandbox is a web development platform
+                    that uses VirtualBox and Vagrant to focus on development.
+                </p>
+                <p>
+                    Sandbox is built with Ubuntu 18.04.2 LTS ( Bonic ) use with VirtualBox adn Vagrant with
+                    software that has been pre-installed for easy access throughout the process. so what exactly
+                    does Sandbox comes with.
+                </p>
+                <p>
+                    Sandbox comes with the following software pre-installed. 
+                    <ul>
+                        <li>Nginx</li>
+                        <li>MySQL Server</li>
+                        <li>PHP 7.2.19</li>
+                        <li>Composer</li>
+                        <li>WP-Cli</li>
+                        <li>PHPCS</li>
+                        <li>Mailcatcher</li>
+                    </ul>
                 </p>
             </div>
 		</section>
