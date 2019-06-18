@@ -45,7 +45,7 @@ require_once '../functions.php';
 			</header>
 			<div class="notification">
 				<p>Here are the list of sites that gets generated when you add one or more sites using
-				sandbox-custom.yml</p>
+				sandbox-custom.yml.</p>
 			</div>
             <div class="box">
 				<?php sites(); ?>
