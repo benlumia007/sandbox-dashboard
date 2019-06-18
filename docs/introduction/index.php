@@ -15,8 +15,8 @@ require_once '../../functions.php';
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="profile" href="https://gmpg.org/xfn/11" />
-		<link href="../framework/css/style.css" rel="stylesheet" type="text/css" />
-		<link href="../framework/assets/fonts/custom-fonts.css" rel="stylesheet" type="text/css" />
+		<link href="../../framework/css/style.css" rel="stylesheet" type="text/css" />
+		<link href="../../framework/assets/fonts/custom-fonts.css" rel="stylesheet" type="text/css" />
 	</head>
 <body>
 <div id="container" class="site-container">
