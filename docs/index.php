@@ -45,6 +45,7 @@ require_once '../functions.php';
 			</header>
             <div class="content-area">
 				<ol>
+					<li>Introduction</li>
 					<li>Getting Started</li>
 				</ol>
             </div>
