@@ -527,7 +527,11 @@ figure {
 .site-container:before,
 .site-container:after,
 .site-content:before,
-.site-content:after {
+.site-content:after,
+.content-area:before,
+.content-area:after,
+.entry-content:before,
+.entry-content:after {
   clear: both;
   content: "";
   display: table;
