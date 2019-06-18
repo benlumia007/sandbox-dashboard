@@ -56,10 +56,10 @@ require_once '../../functions.php';
                 <p>
                     This is one of the requirements that should be installed. Vagrant Hosts Updater allows you
                     to update the hosts file automatically without the need to manually add them. 
+                    <pre>
+                        vagrant plugin install vagrant-hostsupdater
+                    </pre>
                 </p>
-                <pre>
-                    vagrant plugin install vagrant-hostsupdater
-                </pre>
             </div>
 		</section>
 	</section>
