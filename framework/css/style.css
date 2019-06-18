@@ -709,10 +709,6 @@ pre {
   text-align: center;
 }
 
-.content-area ol {
-
-}
-
 .content-area li {
   line-height: 1.8em;
 }
@@ -720,7 +716,6 @@ pre {
 /**
  * 18.0 - Content (Comments)
  */
-.bypostauthor {}
 
 /**
  * 19.0 - Content (Archives)
