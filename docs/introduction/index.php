@@ -41,18 +41,10 @@ require_once '../../functions.php';
 	<section id="content" class="site-content">
 		<section class="content-area">
 			<header class="entry-header">
-				<h1 class="entry-title">Docs</h1>
+				<h1 class="entry-title">Introduction</h1>
 			</header>
             <div class="entry-content">
-				<ol>
-					<li><a href="https://dashboard.test/docs/introduction">Introduction</a></li>
-					<li><a href="https://dashboard.test/docs/getting-started">Getting Started</a></li>
-					<li><a href="https://dashboard.test/docs/new-site">Add New Site</a></li>
-					<li><a href="https://dashboard.test/docs/templates">Templates</a></li>
-					<li><a href="https://dashboard.test/docs/utilties">Utilties</a></li>
-					<li><a href="https://dashboard.test/docs/secure-https">Secure HTTPS</a></li>
-					<li><a href="https://dashboard.test/docs/references">References</a></li>
-				</ol>
+                
             </div>
 		</section>
 	</section>
