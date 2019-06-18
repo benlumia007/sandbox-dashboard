@@ -701,6 +701,14 @@ figure {
   text-align: center;
 }
 
+.content-area ol {
+
+}
+
+.content-area li {
+  line-height: 1.8em;
+}
+
 /**
  * 18.0 - Content (Comments)
  */
