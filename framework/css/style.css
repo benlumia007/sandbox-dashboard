@@ -466,8 +466,9 @@ figure {
     margin: 0;
 }
 
-pre {
+code {
   background: #f1f1f1;
+  padding: 1.125em;
 }
 
 
