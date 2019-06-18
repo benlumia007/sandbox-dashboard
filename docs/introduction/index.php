@@ -67,6 +67,22 @@ require_once '../../functions.php';
                         <li>Mailcatcher</li>
                     </ul>
                 </p>
+                <h2>Vagrant</h2>
+                <p>
+                    Vagrant is an amazing piece of software that allows you to build awesome automation. Vagrant
+                    is a tool for building and managing virtual machines and focuses on automation. When you build
+                    something that is automates everything, it will lower setup time, increase production, and make
+                    everything works, flawlessly. 
+                </p>
+                <h2>VirtualBox</h2>
+                <p>
+                    VirtualBox is a virtualization product that allows you to use guest operating systems such as 
+                    Windows, Linux, and MacOS ( if you can get it to work 🙂 ). This just allows you to install operating
+                    systems onto your own computer instead of having multiple computers just to do testing. VirtualBox does 
+                    it all.
+
+
+                </p>
             </div>
 		</section>
 	</section>
