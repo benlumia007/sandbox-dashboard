@@ -44,7 +44,9 @@ require_once '../functions.php';
 				<h1 class="entry-title">Docs</h1>
 			</header>
             <div class="content-area">
-            
+				<ol>
+					<li>Getting Started</li>
+				</ol>
             </div>
 		</section>
 	</section>
