@@ -58,9 +58,9 @@ require_once '../../functions.php';
                     to update the hosts file automatically without the need to manually add them.
                 </p>
                 <p>
-                    <code>
+                    <pre>
                         vagrant plugin install vagrant-hostsupdater
-                    </code>
+                    </pre>
                 </p>
             </div>
 		</section>
