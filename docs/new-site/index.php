@@ -51,8 +51,10 @@ require_once '../../functions.php';
 				<pre>example:
   repo: https://github.com/benlumia007/sandbox-custom-site.git
   hosts:
-    - example.test
-				</pre>
+    - example.test</pre>
+				<p>
+					Please note that you should be using <code>.test</code> for all new generated sites.
+				</p>
             </div>
 		</section>
 	</section>
