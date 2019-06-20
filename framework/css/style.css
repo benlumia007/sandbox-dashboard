@@ -454,6 +454,7 @@ html {
 }
 
 body {
+  color: #677d89;
 	font-family: 'Merriweather', serif;
 }
 
@@ -711,6 +712,10 @@ pre {
 }
 
 .content-area li {
+  line-height: 1.8em;
+}
+
+.notification {
   line-height: 1.8em;
 }
 
