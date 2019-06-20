@@ -49,7 +49,7 @@ require_once '../../functions.php';
 					provision so that the new site will be active.
 				</p>
 				<pre>example:
-				  repo: https://github.com/benlumia007/sandbox-custom-site.git
+				repo: https://github.com/benlumia007/sandbox-custom-site.git
 				  hosts:
 				    - example.test
 				</pre>
