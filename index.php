@@ -48,24 +48,23 @@
 			</header>
 			<section class="entry-content">
 				<p>
-					Welcome, you have successfully installed Sandbox ( WordPress Development ) environment. You now
-					have full access to all available features that are included on this system. If you need help, head
-					over to the docs to learn more.
+					Welcome, you have successfully installed the Sandbox ( WordPress Development ) environment. You now have full 
+					access to all available features that are included in this system. If you need help, head over to the docs to 
+					learn more.
 				</p>
 				<p>
-					Sandbox is free, a local virtual machine server that can be used under Linux, MacOS, and Windows with just
-					a few command line and ready to deploy by vagranting up and will download everything you need to your own
-					local workstation. 
+				Sandbox is free, a local virtual machine server that can be used under Linux, MacOS, and Windows with just a few command 
+				lines and ready to deploy by vagrant up and will download everything you need to your own local workstation.
 				</p>
 				<h1>Requirements</h1>
 				<p>
-					Sandbox requires the lastest version of VirtualBox and Vagrant to be installed on any host computers
-					that supports virtualization. <a href="https://www.vagrantup.com/" target="_blank">Vagrant</a> is a tool 
-					that helps build and manage virtual machine environment within one single workflow. 
+				Sandbox requires the latest version of VirtualBox and Vagrant to be installed on any host computer that supports virtualization. 
+				<a href="https://www.vagrantup.com/" target="_blank">Vagrant</a> is a tool that helps build and manage a virtual machine environment 
+				within one single workflow.
 				</p>
 				<p>
-					In addition to VirtualBox as the main provider for Vagrant. Sandbox also supports two other providers and
-					they are Microsoft Hyper-V and Parallels. To learned more about Hyper-V and Parallels, head over the docs.
+				In addition to VirtualBox as the main provider for Vagrant. Sandbox also supports two other providers and they are Microsoft Hyper-V 
+				and Parallels. To learn more about Hyper-V and Parallels, head over the docs.
 				</p>
 			</section>
 		</section>
