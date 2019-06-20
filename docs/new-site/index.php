@@ -48,8 +48,7 @@ require_once '../../functions.php';
 					Adding a new site as easy as copying the existing and paste into place and rename. You will then need token_get_all
 					provision so that the new site will be active.
 				</p>
-				<pre>
-				example:
+				<pre>example:
 				  repo: https://github.com/benlumia007/sandbox-custom-site.git
 				  hosts:
 				    - example.test
