@@ -55,6 +55,13 @@ require_once '../../functions.php';
 				<p>
 					Please note that you should be using <code>.test</code> for all new generated sites.
 				</p>
+				<h1>Custom Settings</h1>
+				<p>
+					Sandbox comes with custom settings allowing you to add plugins so that it gets install during provisioning.
+				</p>
+				<pre>cutstom:
+  plugins:
+    - query-monitor</pre>
             </div>
 		</section>
 	</section>
