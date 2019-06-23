@@ -44,7 +44,11 @@ require_once '../../functions.php';
 				<h1 class="entry-title">Secure HTTPS</h1>
 			</header>
             <div class="entry-content">
-
+				<p>
+					Sandbox supports TLS-CA and it is one of the requirements for Sandbox
+					to work by default. The best way to install is through the browser but 
+					every different operating system is install differently.
+				</p>
             </div>
 		</section>
 	</section>
