@@ -44,7 +44,21 @@ require_once '../../functions.php';
 				<h1 class="entry-title">Templates</h1>
 			</header>
             <div class="entry-content">
-
+				<p>
+					When using templates for Sandbox, there are that get used when provisioning. They are following
+					sandbox-custom-site and sandbox-empty-site. These two gets used as common as it gets. 
+				</p>
+				<h1>sandbox-custom-site</h1>
+				<p>
+					The sandbox-custom-site automatically installs WordPress and other custom settings that gets set.
+					The custom settings allows you install themes or plugins before provisioning, but it won't work
+					if you already provisioned a site.
+				</p>
+				<h1>sandbox-empty-site</h1>
+				<p>
+					The empty site allows you to create the empty site that allows you to use a custom WordPress, this
+					means that you can copy your own WordPress files and create your own database if needed.
+				</p>
             </div>
 		</section>
 	</section>
