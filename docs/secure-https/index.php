@@ -45,10 +45,14 @@ require_once '../../functions.php';
 			</header>
             <div class="entry-content">
 				<p>
-					Sandbox supports TLS-CA and it is one of the requirements for Sandbox
-					to work by default. The best way to install is through the browser but 
-					every different operating system is install differently.
+					By default, Sandbox support TLS-CA ( HTTPS ). To use this <code>https</code> feature,
+					Sandbox has you covered, all you will need to do install the certificate through your browser
+					otherwise, depending on the operating system you are using, there are different ways to install
+					certifcate. 
 				</p>
+				<h2>Certificate on Windows</h2>
+				<h2>Certificate on MacoS</h2>
+				<h2>Certificate on Linux</h2>
             </div>
 		</section>
 	</section>
