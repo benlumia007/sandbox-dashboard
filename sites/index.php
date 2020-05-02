@@ -23,7 +23,7 @@ require_once '../functions.php';
 	<header id="header" class="site-header">
 		<div class="branding-navigation">
 			<div class="site-branding">
-				<h1 class="site-title"><a href="https://dashboard.test">Sandbox</a></h1>
+				<h1 class="site-title"><a href="https://dashboard.test">Vagrant for WordPress</a></h1>
 				<h3 class="site-description">WordPress Development</h3>
 			</div>
 			<div class="primary-navigation">
