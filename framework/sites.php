@@ -16,7 +16,7 @@ function endsWith( $haystack, $needle ) {
 
 function sites() {
     $yaml = new Alchemy\Component\Yaml\Yaml();
-    $data = $yaml->load( ( file_exists( '/srv/config/sandbox-custom.yml' ) ) ? '/srv/config/sandbox-custom.yml' : '/srv/config/sandbox-setup.yml' );
+    $data = $yaml->load( ( file_exists( '/srv/.global/custom.yml' ) ) ? '/srv/.global/custom.yml' : '/srv/config/default.yml' );
     foreach ( $data['sites'] as $name => $site ) { ?>
         <div class="entry-content">
             <?php
